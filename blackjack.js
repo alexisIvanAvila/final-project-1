@@ -149,9 +149,9 @@ function reduceAce(playerSum, playerAceCount) {
     return playerSum;
 }
  
-// Restart Game
-const rstartButton = document.getElementById("restart")
-// add event listener to restart button
-restartButton.addEventListener("click", () => {
-  
+
+ document.getElementById("restart").addEventListener("click", () => {
+    
+    location.reload()
+
 });
